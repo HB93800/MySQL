@@ -76,8 +76,6 @@ SELECT etudiant,AVG(notes_exam) FROM examen GROUP BY etudiant HAVING AVG(notes_e
 /* partie 13 exo*/
 SELECT code_exam,AVG(notes_exam) FROM examen GROUP BY code_exam; 
 
-INSERT INTO etudiants (matricule_etudiant, nom_etudiant,prenom_etudiant, birthdate_etudiant, niveau_etudiant) VALUES (1,"BENAMAR","Hassan","1978-06-16","15");
-
 
 
 
